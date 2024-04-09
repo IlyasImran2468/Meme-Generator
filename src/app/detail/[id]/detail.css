@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(255, 255, 255); */
+    color: black;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzRLkQIOZoFvvu0qRVUqxwhP-5hLTr8DcgWg&usqp=CAU") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img1{
+    width: 300px;
+    height: 300px;
+  }
+  input{
+    padding: 15px;
+    width: 100%;
+  }
+  button{
+    background-color: rgb(14, 5, 69);
+    color: white;
+   
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid blue;
+  }
+  button:hover{
+    border: 1px solid darkgreen;
+    background-color: darkgreen;
+  }
